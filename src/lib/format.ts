@@ -1,0 +1,1 @@
+export function formatCurrency(value: number): string {\n  return `$${value.toFixed(2)}`;\n}
