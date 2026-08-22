@@ -1,0 +1,1 @@
+export default function AuthLayout({ children }) {\n  return (\n    <div className='p-10'>\n      <h1 className='text-2xl font-bold'>Welcome to AI Integrator</h1>\n      {children}\n    </div>\n  );\n}
