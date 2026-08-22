@@ -1,0 +1,1 @@
+export default function DashboardLayout({ children }) {\n  return (\n    <div className='flex'>\n      <aside className='w-1/4'>\n        <nav>\n          <ul>\n            <li>Dashboard</li>\n            <li>Integrations</li>\n            <li>Tasks</li>\n          </ul>\n        </nav>\n      </aside>\n      <main className='w-3/4 p-5'>{children}</main>\n    </div>\n  );\n}
