@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Hero: React.FC = () => {\n  return (\n    <section className='h-screen flex items-center justify-center bg-gray-200'>\n      <h1 className='text-5xl font-bold'>Welcome to AI Integrator</h1>\n    </section>\n  );\n};\n\nexport default Hero;
