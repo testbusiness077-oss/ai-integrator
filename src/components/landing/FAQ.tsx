@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst FAQ: React.FC = () => {\n  return (\n    <section className='p-10'>\n      <h2 className='text-3xl font-semibold'>Frequently Asked Questions</h2>\n      <p>Common questions and answers about our service.</p>\n    </section>\n  );\n};\n\nexport default FAQ;
