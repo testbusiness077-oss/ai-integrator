@@ -1,0 +1,1 @@
+export default function BillingSettings() {\n  return (\n    <div>\n      <h1 className='text-2xl'>Billing Settings</h1>\n      <p>Manage your billing and subscription.</p>\n    </div>\n  );\n}
