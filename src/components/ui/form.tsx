@@ -1,0 +1,1 @@
+import React, { ReactNode } from 'react';\n\ntype FormProps = {\n  children: ReactNode;\n  onSubmit: (event: React.FormEvent) => void;\n};\n\nconst Form: React.FC<FormProps> = ({ children, onSubmit }) => {\n  return (\n    <form onSubmit={onSubmit} className='space-y-4'>\n      {children}\n    </form>\n  );\n};\n\nexport default Form;
