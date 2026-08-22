@@ -1,0 +1,1 @@
+export default function Feature2() {\n  return (\n    <div>\n      <h1 className='text-2xl'>Feature 2</h1>\n      <p>Details about Feature 2</p>\n    </div>\n  );\n}
