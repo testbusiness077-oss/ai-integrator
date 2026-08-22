@@ -1,0 +1,1 @@
+export default function ProfileSettings() {\n  return (\n    <div>\n      <h1 className='text-2xl'>Profile Settings</h1>\n      <p>Manage your profile information.</p>\n    </div>\n  );\n}
