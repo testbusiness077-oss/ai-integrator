@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Testimonials: React.FC = () => {\n  return (\n    <section className='p-10'>\n      <h2 className='text-3xl font-semibold'>What Our Users Say</h2>\n      <blockquote>"AI Integrator has transformed how I work!"</blockquote>\n    </section>\n  );\n};\n\nexport default Testimonials;
