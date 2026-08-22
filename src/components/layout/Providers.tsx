@@ -1,0 +1,1 @@
+import React from 'react';\nimport { SessionProvider } from 'next-auth/react';\n\ntype ProvidersProps = {\n  children: React.ReactNode;\n};\n\nconst Providers: React.FC<ProvidersProps> = ({ children }) => {\n  return (\n    <SessionProvider>{children}</SessionProvider>\n  );\n};\n\nexport default Providers;
