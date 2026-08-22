@@ -1,0 +1,1 @@
+async function fetcher<T>(url: string, options?: RequestInit): Promise<T> {\n  const response = await fetch(url, options);\n  if (!response.ok) {\n    throw new Error('Network response was not ok');\n  }\n  return response.json();\n}\n\nexport default fetcher;
