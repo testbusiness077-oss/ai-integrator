@@ -1,0 +1,1 @@
+import { render, screen } from '@testing-library/react';\n// Assuming you have a TaskCard component\nimport TaskCard from '@/components/tasks/TaskCard';\n\ntest('renders task card correct title', () => {\n  render(<TaskCard title='Test Task' />);\n  expect(screen.getByText('Test Task')).toBeInTheDocument();\n});
