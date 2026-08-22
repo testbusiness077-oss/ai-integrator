@@ -1,0 +1,1 @@
+export default function Dashboard() {\n  return (\n    <div>\n      <h1 className='text-2xl'>Dashboard</h1>\n      <p>Welcome to your dashboard!</p>\n    </div>\n  );\n}
