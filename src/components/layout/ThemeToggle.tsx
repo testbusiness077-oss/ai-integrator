@@ -1,0 +1,1 @@
+import React from 'react';\n\ntype ThemeToggleProps = {\n  toggleTheme: () => void;\n};\n\nconst ThemeToggle: React.FC<ThemeToggleProps> = ({ toggleTheme }) => {\n  return (\n    <button onClick={toggleTheme} className='p-2'>Toggle Theme</button>\n  );\n};\n\nexport default ThemeToggle;
