@@ -1,0 +1,1 @@
+import React from 'react';\n\ntype CardProps = {\n  children: React.ReactNode;\n  className?: string;\n};\n\nconst Card: React.FC<CardProps> = ({ children, className }) => {\n  return (\n    <div className={`bg-white shadow-md rounded-lg p-5 ${className}`}>\n      {children}\n    </div>\n  );\n};\n\nexport default Card;
