@@ -1,0 +1,1 @@
+import { render, screen } from '@testing-library/react';\nimport LoginPage from '@/app/(auth)/login/page';\n\ntest('renders login page', () => {\n  render(<LoginPage />);\n  expect(screen.getByPlaceholderText('Email')).toBeInTheDocument();\n  expect(screen.getByPlaceholderText('Password')).toBeInTheDocument();\n});
