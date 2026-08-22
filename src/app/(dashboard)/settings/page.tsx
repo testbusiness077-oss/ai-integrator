@@ -1,0 +1,1 @@
+export default function Settings() {\n  return (\n    <div>\n      <h1 className='text-2xl'>Settings Page</h1>\n      <p>Manage your settings here.</p>\n    </div>\n  );\n}
