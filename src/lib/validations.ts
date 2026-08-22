@@ -1,0 +1,1 @@
+import { z } from 'zod';\n\nexport const userSchema = z.object({\n   email: z.string().email(),\n   password: z.string().min(6),\n});\n\nexport const taskSchema = z.object({\n   title: z.string().min(1),\n   description: z.string().optional(),\n   status: z.enum(['PENDING', 'IN_PROGRESS', 'COMPLETED']),\n});
