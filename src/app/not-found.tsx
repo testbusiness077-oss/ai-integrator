@@ -1,0 +1,1 @@
+export default function NotFound() {\n  return (\n    <div className='text-center'>\n      <h1 className='text-4xl'>404 - Page Not Found</h1>\n      <p>Oops! The page you are looking for does not exist.</p>\n    </div>\n  );\n}
