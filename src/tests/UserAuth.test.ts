@@ -1,0 +1,1 @@
+import { expect } from 'chai';\n\ndescribe('User Authentication', () => {\n  it('should register a user', () => {\n    // Mock the registration function and test it\n  });\n  it('should login a user', () => {\n    // Mock the login function and test it\n  });\n});
