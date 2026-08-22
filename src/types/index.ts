@@ -1,0 +1,1 @@
+export type User = {\n  id: string;\n  email: string;\n  createdAt: string;\n  updatedAt: string;\n  tasks: Task[];\n};\n\nexport type Task = {\n  id: string;\n  title: string;\n  description?: string;\n  status: TaskStatus;\n  ownerId: string;\n  createdAt: string;\n  updatedAt: string;\n};\n\nexport type TaskStatus = 'PENDING' | 'IN_PROGRESS' | 'COMPLETED';
