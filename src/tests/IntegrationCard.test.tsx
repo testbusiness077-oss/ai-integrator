@@ -1,0 +1,1 @@
+import { render, screen } from '@testing-library/react';\n// Assuming you have an IntegrationCard component\nimport IntegrationCard from '@/components/integrations/IntegrationCard';\n\ntest('renders integration card correctly', () => {\n  render(<IntegrationCard name='AI Tool' />);\n  expect(screen.getByText('AI Tool')).toBeInTheDocument();\n});
