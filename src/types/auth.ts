@@ -1,0 +1,1 @@
+export type AuthCredentials = {\n  email: string;\n  password: string;\n};
