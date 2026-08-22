@@ -1,0 +1,1 @@
+{\n  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],\n  "parser": "@typescript-eslint/parser",\n  "parserOptions": {\n    "ecmaVersion": 2020,\n    "sourceType": "module"\n  },\n  "rules": {\n    "@typescript-eslint/no-explicit-any": "error",\n    "no-console": "warn"\n  }\n}
