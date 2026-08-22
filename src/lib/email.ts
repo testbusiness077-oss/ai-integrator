@@ -1,0 +1,1 @@
+export async function sendEmail(to: string, subject: string, body: string) {\n  // Logic to send email\n}
