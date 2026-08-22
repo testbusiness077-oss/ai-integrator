@@ -1,0 +1,1 @@
+export default function ErrorPage() {\n  return (\n    <div className='text-center'>\n      <h1 className='text-red-600'>Error Occurred</h1>\n      <p>Something went wrong. Please try again later.</p>\n    </div>\n  );\n}
