@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst CTA: React.FC = () => {\n  return (\n    <section className='p-10'>\n      <h2 className='text-3xl font-semibold'>Get Started Today</h2>\n      <button className='bg-blue-500 text-white p-2 rounded'>Sign Up</button>\n    </section>\n  );\n};\n\nexport default CTA;
