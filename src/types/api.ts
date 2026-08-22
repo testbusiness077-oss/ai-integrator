@@ -1,0 +1,1 @@
+export type ApiResponse<T> = {\n  data: T;\n  message?: string;\n  errors?: string[];\n};
