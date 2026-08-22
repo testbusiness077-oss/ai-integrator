@@ -1,0 +1,1 @@
+import { render, screen } from '@testing-library/react';\nimport Dashboard from '@/app/(dashboard)/dashboard/page';\n\ntest('renders dashboard correctly', () => {\n  render(<Dashboard />);\n  expect(screen.getByText('Dashboard')).toBeInTheDocument();\n});
