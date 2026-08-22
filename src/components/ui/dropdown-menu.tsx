@@ -1,0 +1,1 @@
+import React from 'react';\n\ntype DropdownMenuProps = {\n  children: React.ReactNode;\n};\n\nconst DropdownMenu: React.FC<DropdownMenuProps> = ({ children }) => {\n  return (\n    <div className='relative inline-block text-left'>\n      <div>{children}</div>\n    </div>\n  );\n};\n\nexport default DropdownMenu;
