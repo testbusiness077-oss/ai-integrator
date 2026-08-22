@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Header: React.FC = () => {\n  return (\n    <header className='bg-gray-800 text-white p-4'>\n      <h1 className='text-xl'>AI Integrator</h1>\n    </header>\n  );\n};\n\nexport default Header;
