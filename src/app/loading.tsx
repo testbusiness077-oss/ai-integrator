@@ -1,0 +1,1 @@
+export default function Loading() {\n  return <div className='text-center'>Loading...</div>;\n}
