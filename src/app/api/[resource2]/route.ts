@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server';\n\nexport async function GET() {\n  return NextResponse.json({ message: 'Resource 2 fetched successfully!' });\n}  \n\nexport async function POST(request) {\n  const body = await request.json();\n  return NextResponse.json({ message: 'Resource 2 created successfully' }, { status: 201 });\n}
