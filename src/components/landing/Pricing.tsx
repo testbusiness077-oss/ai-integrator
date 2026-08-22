@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Pricing: React.FC = () => {\n  return (\n    <section className='p-10'>\n      <h2 className='text-3xl font-semibold'>Pricing</h2>\n      <p>Starting at $10/month.</p>\n    </section>\n  );\n};\n\nexport default Pricing;
