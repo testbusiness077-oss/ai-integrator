@@ -1,0 +1,1 @@
+import Hero from '@/components/landing/Hero';\nimport Features from '@/components/landing/Features';\nimport Pricing from '@/components/landing/Pricing';\nimport CTA from '@/components/landing/CTA';\n\nexport default function Home() {\n  return (\n    <div>\n      <Hero />\n      <Features />\n      <Pricing />\n      <CTA />\n    </div>\n  );\n}
