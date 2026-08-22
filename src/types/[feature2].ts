@@ -1,0 +1,1 @@
+// Define types related to Feature 2 here
