@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Footer: React.FC = () => {\n  return (\n    <footer className='bg-gray-800 text-white p-4'>\n      <p>&copy; 2026 AI Integrator. All Rights Reserved.</p>\n    </footer>\n  );\n};\n\nexport default Footer;
