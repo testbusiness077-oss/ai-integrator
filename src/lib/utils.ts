@@ -1,0 +1,1 @@
+export function formatDate(date: Date): string {\n  return date.toLocaleDateString();\n}\n\nexport function truncate(text: string, length: number): string {\n  return text.length > length ? text.substring(0, length) + '...' : text;\n}
