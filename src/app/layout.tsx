@@ -1,0 +1,1 @@
+import { ReactNode } from 'react';\nimport './globals.css';\n\nexport const metadata = {\n  title: 'AI Integrator',\n  description: 'A seamless platform for managing AI tools',\n};\n\nexport default function RootLayout({ children }: { children: ReactNode }) {\n  return (\n    <html lang="en">\n      <body>{children}</body>\n    </html>\n  );\n}
